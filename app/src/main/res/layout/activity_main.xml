@@ -8,9 +8,15 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="number"
+        android:inputType="text"
         android:id="@+id/search"
         />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="http://www.free-map.org.uk/course/mad/ws/hits.php"
+        android:id="@+id/url" />
 
     <Button android:layout_width="wrap_content"
         android:layout_height="wrap_content"
